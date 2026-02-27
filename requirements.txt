@@ -1,1 +1,8 @@
-
+streamlit
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+streamlit-drawable-canvas
