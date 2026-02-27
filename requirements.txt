@@ -1,8 +1,8 @@
-streamlit==1.31.1
-streamlit-drawable-canvas==0.9.3
-scikit-learn==1.4.2
-numpy>=1.23
-pandas>=1.5
+streamlit>=1.31
+streamlit-drawable-canvas>=0.9.3
+scikit-learn==1.8.0
+numpy>=2.0
+pandas>=2.0
 matplotlib>=3.7
-seaborn>=0.12
-pillow>=9.5
+seaborn>=0.13
+pillow>=10
