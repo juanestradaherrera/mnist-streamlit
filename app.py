@@ -61,7 +61,7 @@ def get_models(random_state=42):
         "SVM (RBF)": SVC(kernel="rbf", C=10, gamma="scale", probability=False),
         "Random Forest": RandomForestClassifier(n_estimators=300, random_state=random_state),
         "Decision Tree": DecisionTreeClassifier(random_state=random_state),
-        "Logistic Regression": LogisticRegression(max_iter=2000, solver="lbfgs", multi_class="auto")
+        "Logistic Regression": LogisticRegression(max_iter=2000, solver="lbfgs")
     }
     return models
 
